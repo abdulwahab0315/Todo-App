@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;}
+.container{
+    height: 20vh;
+    width: 100%;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: aliceblue;
+}
+.input-sec{
+    width: 500px;
+    border: 1px solid #dadada;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    
+}
+.input-wrapper{
+    display: flex;
+    gap: 12px;
+    
+}
+.input-wrapper input {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid #dadada;
+}
+
+#input-button{
+    width: 30%;
+    background-color: indigo;
+    color: gold;
+    border: none;
+    border-radius: 6px;
+}
+.reset-button {
+    width: 20%;
+    background-color: indigo;
+    color: gold;
+    border: none;
+    border-radius: 6px;
+
+}
